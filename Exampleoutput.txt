@@ -1,0 +1,151 @@
+==================================================
+      CONTACT MANAGEMENT SYSTEM
+==================================================
+1. Add New Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. View All Contacts
+6. Export to CSV
+7. View Statistics
+8. Exit
+==============================
+Enter your choice (1-8): 1
+
+--- ADD NEW CONTACT ---
+Enter contact name: John Doe
+Enter phone number: 12345678900
+Enter email (optional, press Enter to skip): john@example.com
+Enter address (optional): 123 Main Street
+Select Group (1: Friends, 2: Work, 3: Family, 4: Other)
+Enter choice (default 'Other'): 1
+✅ Contact 'John Doe' added successfully!
+✅ Contacts saved to contacts_data.json
+
+==================================================
+      CONTACT MANAGEMENT SYSTEM
+==================================================
+1. Add New Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. View All Contacts
+6. Export to CSV
+7. View Statistics
+8. Exit
+==============================
+Enter your choice (1-8): 1
+
+--- ADD NEW CONTACT ---
+Enter contact name: Sarah Jenkins
+Enter phone number: 442079460192
+Enter email (optional, press Enter to skip): sarah.j@workmail.com
+Enter address (optional): null
+Select Group (1: Friends, 2: Work, 3: Family, 4: Other)
+Enter choice (default 'Other'): 2
+✅ Contact 'Sarah Jenkins' added successfully!
+✅ Contacts saved to contacts_data.json
+
+==================================================
+      CONTACT MANAGEMENT SYSTEM
+==================================================
+1. Add New Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. View All Contacts
+6. Export to CSV
+7. View Statistics
+8. Exit
+==============================
+Enter your choice (1-8): 1
+
+--- ADD NEW CONTACT ---
+Enter contact name: Grandma Smith
+Enter phone number: 18005550199
+Enter email (optional, press Enter to skip): null
+Invalid email format!
+Enter email (optional, press Enter to skip): 456 Oak Lane, Smallville
+Invalid email format!
+Enter email (optional, press Enter to skip): grandma@gmail.com
+Enter address (optional): 456 Oak Lane, Smallville
+Select Group (1: Friends, 2: Work, 3: Family, 4: Other)
+Enter choice (default 'Other'): 1
+✅ Contact 'Grandma Smith' added successfully!
+✅ Contacts saved to contacts_data.json
+
+==================================================
+      CONTACT MANAGEMENT SYSTEM
+==================================================
+1. Add New Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. View All Contacts
+6. Export to CSV
+7. View Statistics
+8. Exit
+==============================
+Enter your choice (1-8): 5
+
+--- ALL CONTACTS (3 total) ---
+============================================================
+👤 Grandma Smith
+   📞 18005550199
+   📧 grandma@gmail.com
+   📍 456 Oak Lane, Smallville
+   👥 Group: Friends
+----------------------------------------
+👤 John Doe
+   📞 12345678900
+   📧 john@example.com
+   📍 123 Main Street
+   👥 Group: Friends
+----------------------------------------
+👤 Sarah Jenkins
+   📞 442079460192
+   📧 sarah.j@workmail.com
+   📍 null
+   👥 Group: Work
+----------------------------------------
+============================================================
+
+==================================================
+      CONTACT MANAGEMENT SYSTEM
+==================================================
+1. Add New Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. View All Contacts
+6. Export to CSV
+7. View Statistics
+8. Exit
+==============================
+Enter your choice (1-8): 7
+
+--- CONTACT STATISTICS ---
+Total Contacts: 3
+
+Contacts by Group:
+  Friends: 2 contact(s)
+  Work: 1 contact(s)
+
+==================================================
+      CONTACT MANAGEMENT SYSTEM
+==================================================
+1. Add New Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. View All Contacts
+6. Export to CSV
+7. View Statistics
+8. Exit
+==============================
+Enter your choice (1-8): 8
+✅ Contacts saved to contacts_data.json
+
+==================================================
+Thank you for using Contact Management System!
+==================================================
